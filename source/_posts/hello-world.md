@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: 2017-07-23
+date: 2017-06-23
 category: test category2
 tags: 
   - USF 
