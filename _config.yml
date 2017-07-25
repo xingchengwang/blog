@@ -4,15 +4,15 @@
 
 # Site
 title: 王行成的个人博客
-subtitle:
-description: a personal blog
-author: xingchengwang
-language: 
+subtitle: 公司金融观察者
+description: Finance 
+author: 王行成
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xingchengwang.github.io
+url: https://xingchengwang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,5 +78,26 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://git@github.com:xingchengwang/xingchengwang.github.io.git
+  repository: git@github.com:xingchengwang/xingchengwang.github.io.git
   branch: master
+
+
+## 所有文章列表配置项目
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
